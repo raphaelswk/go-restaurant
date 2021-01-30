@@ -36,8 +36,8 @@ Go Restaurant - is an easy and quick way to manage a resaurant dishes, with a si
 
 The application layout is available on Figma:
 
-<a href="https://www.figma.com/file/1lK6AVCPybtWeBLCH8B08N/GoRestaurant?node-id=0%3A1">
-  <img alt="Figma Link" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+<a href="https://www.figma.com/file/1lK6AVCPybtWeBLCH8B08N/GoRestaurant?node-id=0%3A1" target="_blank">
+  <img alt="Figma Link" src="https://img.shields.io/badge/Access%20Layout%20-Figma-%2304D361">
 </a>
 
 ---
