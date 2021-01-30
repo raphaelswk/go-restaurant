@@ -27,7 +27,6 @@ const Food: React.FC<IProps> = ({
   const [isAvailable, setIsAvailable] = useState(food.available);
 
   async function toggleAvailable(): Promise<void> {
-    // TODO UPDATE STATUS (available)
     setIsAvailable(!isAvailable);
   }
 
@@ -69,7 +68,7 @@ const Food: React.FC<IProps> = ({
         </div>
 
         <div className="availability-container">
-          <p>{isAvailable ? 'Disponível' : 'Indisponível'}</p>
+          <p>{isAvailable ? 'Available' : 'Unavailable'}</p>
 
           <label htmlFor={`available-switch-${food.id}`} className="switch">
             <input
