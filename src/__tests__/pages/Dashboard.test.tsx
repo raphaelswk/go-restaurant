@@ -85,13 +85,13 @@ describe('Dashboard', () => {
     );
 
     act(() => {
-      fireEvent.click(getByText('Novo Prato'));
+      fireEvent.click(getByText('New Dish'));
     });
 
-    const inputImage = getByPlaceholderText('Cole o link aqui');
-    const inputName = getByPlaceholderText('Ex: Moda Italiana');
+    const inputImage = getByPlaceholderText('Paste the link here');
+    const inputName = getByPlaceholderText('Ex: Italian Style');
     const inputValue = getByPlaceholderText('Ex: 19.90');
-    const inputDescription = getByPlaceholderText('Descrição');
+    const inputDescription = getByPlaceholderText('Description');
 
     await act(async () => {
       fireEvent.change(inputImage, {
@@ -176,10 +176,10 @@ describe('Dashboard', () => {
       fireEvent.click(getByTestId('edit-food-1'));
     });
 
-    const inputImage = getByPlaceholderText('Cole o link aqui');
-    const inputName = getByPlaceholderText('Ex: Moda Italiana');
+    const inputImage = getByPlaceholderText('Paste the link here');
+    const inputName = getByPlaceholderText('Ex: Italian Style');
     const inputValue = getByPlaceholderText('Ex: 19.90');
-    const inputDescription = getByPlaceholderText('Descrição');
+    const inputDescription = getByPlaceholderText('Description');
 
     await act(async () => {
       fireEvent.change(inputImage, {
@@ -292,7 +292,7 @@ describe('Dashboard', () => {
         'Macarrão ao molho branco, fughi e cheiro verde das montanhas.',
       ),
     ).toBeTruthy();
-    expect(getByText('Disponível')).toBeTruthy();
+    expect(getByText('Available')).toBeTruthy();
     expect(getByTestId('remove-food-1')).toBeTruthy();
     expect(getByTestId('edit-food-1')).toBeTruthy();
 
@@ -320,7 +320,7 @@ describe('Dashboard', () => {
         'Macarrão ao molho branco, fughi e cheiro verde das montanhas.',
       ),
     ).toBeTruthy();
-    expect(getByText('Indisponível')).toBeTruthy();
+    expect(getByText('Unavailable')).toBeTruthy();
     expect(getByTestId('remove-food-1')).toBeTruthy();
     expect(getByTestId('edit-food-1')).toBeTruthy();
 
@@ -338,7 +338,7 @@ describe('Dashboard', () => {
         'Macarrão ao molho branco, fughi e cheiro verde das montanhas.',
       ),
     ).toBeTruthy();
-    expect(getByText('Disponível')).toBeTruthy();
+    expect(getByText('Available')).toBeTruthy();
     expect(getByTestId('remove-food-1')).toBeTruthy();
     expect(getByTestId('edit-food-1')).toBeTruthy();
   });
