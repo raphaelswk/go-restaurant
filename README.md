@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoRestaurant" title="#GoRestaurant" src="./src/assets/logo.svg" style="background-color: blue;" />
+    <img alt="GoRestaurant" title="#GoRestaurant" src="./src/assets/logoGitHub.png" style="background-color: blue;" />
 </h1>
 
 # Go Restaurant
