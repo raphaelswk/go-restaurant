@@ -40,6 +40,12 @@ The application layout is available on Figma:
   <img alt="Figma Link" src="https://img.shields.io/badge/Access%20Layout%20-Figma-%2304D361">
 </a>
 
+### Web
+
+<p align="center">
+  <img alt="Demo on GoRestaurant" src="https://media.giphy.com/media/xgsWuxOjt89Holzrsv/giphy.gif">
+</p>
+
 ---
 
 ## How it works
