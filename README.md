@@ -99,4 +99,4 @@ The following tools were used in the construction of the project:
 > See the file  [package.json](https://github.com/raphaelswk/go-restaurant/blob/master/package.json)
 
 
-Made ♥ love by Raphael Socolowski 👋🏽 [Get in Touch!](https://www.linkedin.com/in/raphaelswk/)
+Made with ♥ by Raphael Socolowski 👋🏽 [Get in Touch!](https://www.linkedin.com/in/raphaelswk/)
